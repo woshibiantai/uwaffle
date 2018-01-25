@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Welcome to uwaffle!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Demo styles -->
+    <style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 2em;
+        color:#157efb;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .content {
+        width: 100%;
+        height: 100%;
+        display: block;
+        white-space: normal;
+        word-wrap: break-word;
+    }
+    </style>
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="content">
+                    <img src="assets/ss/first.PNG" display="block" align="center" width="100%">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="content">
+                    <img src="assets/ss/second.PNG" display="block" align="center" width="100%">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="content">
+                    <img src="assets/ss/third.PNG" display="block" align="center" width="100%">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="content">
+                    <img src="assets/ss/fourth.PNG" display="block" align="center" width="100%">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="content">
+                    <img src="assets/ss/fifth.PNG" display="block" align="center" width="100%">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <a href="http://waffling.designvalue.net/" style="text-decoration: none;">
+                <img src="assets/login/logo.png" width="50%"><br>
+                <p>Start uwaffling now!</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.searchBar input[type=text] {
+    padding: 4pt 0pt 4pt 40pt;
+    border-radius: 20pt 20pt 20pt 20pt;
+    border:none;
+    width: 250pt;
+
+    background-image: url("../assets/search.svg");
+    background-size: 15pt 15pt;
+    background-position: 10pt 5pt;
+    background-repeat: no-repeat;
+
+    font-family: "Myriad Pro";
+    font-size: 14pt;
+    background-color: rgba(232, 232, 232, 0.7);
+    color: white;
+}
+
+.searchBar {
+    filter: drop-shadow(4pt 4pt 7pt rgba(0,0,0,0.2));
+}
+
+.searchBar:hover {
+    filter: drop-shadow(4pt 4pt 7pt rgba(0,0,0,0.3));
+}
+
+.searchBar input[type=text]:focus {
+    filter: drop-shadow(4pt 4pt 7pt rgba(0,0,0,0.1));
+}
+
+*:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}

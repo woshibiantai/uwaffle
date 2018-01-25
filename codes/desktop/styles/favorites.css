@@ -1,0 +1,135 @@
+@font-face {font-family: "EngraversGothic BT"; src: url("../fonts/EngraversGothic.ttf") format("truetype");}
+html, body{width:100%;height:100%;}
+
+body {
+    background: url("../assets/favorites/BG.svg") fixed no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+ul, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+}
+
+.main {
+    overflow: hidden;
+    width: 1080pt;
+    height: 630pt;
+    margin: 0 auto;
+}
+
+.TITLE img {
+    height: 90pt;
+    position: relative;
+    top: 10pt;
+    left: 5pt;
+}
+
+.searchBar {
+    position: relative;
+    float: right;
+    top: 20pt;
+    right: 25pt;
+}
+
+.identity {
+    position: relative;
+    left: 65pt;
+    top: 50pt;
+}
+
+.tabs {
+    position: relative;
+    top: -372pt;
+    left: 530pt;
+}
+
+.fav-container {
+    position: relative;
+    top: -377pt;
+    left: 425pt;
+    width: 585pt;
+    height: 400pt;
+    background: url("../assets/favorites/favBG.svg") repeat-x;
+    border-radius: 20pt;
+}
+
+#listContainer {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;  
+    width: 555pt;
+    height: 300pt;
+}
+
+#playListContainer {
+    width: 480pt;
+    height: auto;
+}
+
+#playListContainer li {
+    font-size: 18pt;
+    padding: 12pt 0pt;
+}
+
+.fiveTitle {
+    font-family: "EngraversGothic BT";
+    font-size: 40pt;
+    color: white;
+    text-align: center;
+    letter-spacing: 10pt;
+    position: relative;
+    margin: 0 auto;
+    top: 15pt;
+}
+
+.fiveTitle hr {
+    width: 400pt;
+    height: 2pt;
+    
+    position: relative;
+    top: -10pt;
+
+    border: none;
+    background-color: white;
+}
+
+.backButton {
+    width: 290pt;
+    background-color: rgba(209, 211, 212, 0.8);
+    box-shadow: -3pt 5pt 10pt rgba(0, 0, 0, 0.3);
+
+    font-family: "EngraversGothic BT";
+    font-size: 18pt; 
+    letter-spacing: 3pt;
+
+    position: relative;
+    bottom: 330pt;
+    left: 750pt;
+
+    padding: 10pt 20pt 10pt;
+    transition: all .2s ease-in-out;
+}
+
+.backButton a {
+    color: black;
+}
+
+.backButton:hover {
+    background-color: rgba(209, 211, 212, 0.3);
+    left: 740pt;
+}
+
+.flare {
+    position: relative;
+    top: -910pt;
+    left: 355pt;
+    z-index: -1;
+    width: 710pt;
+    height: 1000pt;
+    background: url("../assets/flare.png") no-repeat;
+    background-size: 100% auto;
+}

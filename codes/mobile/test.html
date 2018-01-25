@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".favoriteBtn").click(function(){
+		$("#favorites").attr('src', "assets/main/noheart.svg");
+		$.ajax({
+			type: 'POST',
+			url: 'testtest.php',
+			data:{
+				song: 'Cake By The Ocean'
+			},
+			success:function(){
+
+			}
+		});
+	});
+});
+</script>
+</head>
+<body>
+<a href="#" class="favoriteBtn"><img id="favorites" src="assets/main/heart.svg"></a>
+</body>
+</html>

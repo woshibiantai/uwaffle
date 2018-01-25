@@ -1,0 +1,114 @@
+@font-face {font-family: "EngraversGothic BT";src: url("../fonts/EngraversGothic.ttf") format("truetype");}
+@font-face {font-family: "swisop1";src: url("../fonts/swisop1.ttf") format("truetype");}
+@font-face {font-family: "switalt";src: url("../fonts/switalt.ttf") format("truetype");}
+@font-face {font-family: "swlink";src: url("../fonts/swlink.ttf") format("truetype");}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url("../assets/login/BG.svg") fixed no-repeat;
+    background-size: cover;
+    color: white;
+    overflow: scroll;
+}
+
+.logIn {
+    width: 300pt;
+    position: relative;
+    top: 220pt;
+    left: 700pt;
+}
+
+.logIn p {
+    font-family: "EngraversGothic BT";
+    text-align: center;
+    color: black;
+    font-size: 22pt;
+}
+
+.logIn h1 {
+    font-family: "EngraversGothic BT";
+    text-align: center;
+    color: black;
+    font-size: 18pt;
+    font-weight: lighter;
+}
+
+.logIn span {
+    font-size: 16pt;
+    margin: 30pt;
+}
+
+.details {
+    font-family: "Myriad Pro";
+    font-size: 14pt;
+
+    height: 26pt;
+    width: 300pt;
+
+    background-color: rgba(255, 255, 255, 0.6);
+    filter: drop-shadow(5pt 5pt 7pt rgba(0,0,0,0.3));
+    border: none;
+    border-radius: 5pt;
+
+    position: relative;
+    top: -20pt;
+}
+
+input {
+    border: none;
+    background: none;
+    text-align: center;
+}
+
+.signup-btn {
+    display: block;
+
+    background: url("../assets/login/signup.svg") no-repeat;
+    height: 45pt;
+    width: 130pt;
+    margin: 0 auto;
+    transition: .2s all ease-in-out;
+}
+
+.signup-btn:hover {
+    transform: scale(1.05);
+}
+
+.btn {
+    display: block;
+
+    background: url("../assets/login/login.svg") no-repeat;
+    height: 45pt;
+    width: 130pt;
+    margin: 0 auto;
+    transition: .2s all ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+*:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+   color: #808285;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #808285;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #808285;  
+}
+
+:-ms-input-placeholder {  
+   color: #808285;  
+}

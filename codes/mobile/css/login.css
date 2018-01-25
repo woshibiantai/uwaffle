@@ -1,0 +1,100 @@
+@font-face {font-family: "EngraversGothic BT"; src: url("../EngraversGothic.ttf") format("truetype");}
+
+body, html, .container-fluid {
+    height: 100%;
+    width: 100%;
+    font-family: "EngraversGothic BT";
+}
+
+body {
+    background: url("../assets/login/BG.svg") repeat-y;
+    background-size: 100% auto;
+}
+
+*:focus {
+    outline: none;
+}
+
+.logo-row {
+    margin-top: 30%;
+    height: 40%;
+}
+
+.logo, .loginForm-col, .loginBtn-col, .loginForm-col form {
+    height: 100%;
+}
+
+.logo img {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.loginForm-row {
+    margin: 0 auto;
+    color: #6D6E71;
+    text-align: center;
+    font-size: 1em;
+    height: 40%;
+}
+
+.username-row{
+    margin-top: 1em;
+}
+
+.loginForm-col input[type=text], .loginForm-col input[type=password] {
+    width: 100%;
+    background: url("../assets/login/formBG.svg") no-repeat;
+    background-size: cover;
+    border-radius: 7pt;
+    -webkit-background-clip: padding-box;
+    border: none;
+
+    text-align: center;
+    font-family: "EngraversGothic BT";
+    font-size: 1.5em;
+    letter-spacing: .1em;
+
+    padding: .4em;
+    margin: 0em 0em .5em;
+    filter: drop-shadow(2pt 2pt 5pt rgba(0,0,0,0.3));
+}
+
+.logCheck-row {
+    font-size: 1em;
+    margin: 1em 0em;
+    width: 110%;
+    transform: translateX(-5%);
+}
+
+.loginBtn-row {
+    display: block;
+    margin: 1em 0em;
+    height: 25%;
+}
+
+.loginBtn-row a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#loginBtn {
+    background: url("../assets/login/loginBtn.svg") no-repeat;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+
+#signupBtn {
+    border: none;
+    background: url("../assets/login/signupBtn.svg") no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.loginForm-col a {
+    text-decoration: underline;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+}

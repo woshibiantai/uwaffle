@@ -1,0 +1,18 @@
+.tabs img{
+    width: 120pt;
+    /*transition: all .2s ease-in-out;*/
+}
+
+#five {
+    position: relative;
+    left: 55pt;
+}
+
+#favorites {
+    position: relative;
+    left: 51pt;
+}
+
+.tabs img:hover {
+    opacity: 0.8;
+}

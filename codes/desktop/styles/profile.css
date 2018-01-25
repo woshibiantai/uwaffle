@@ -1,0 +1,44 @@
+.identity {
+    width: 250pt;
+    height: 345pt;
+
+    background: url("../assets/profile/identity.svg") no-repeat;
+
+    /*border: 3pt red solid;*/
+}
+
+.identity img {
+    height: 150pt;
+    position: relative;
+    left: 45pt;
+    bottom: -20pt;
+}
+
+.Name {
+    width: 220pt;
+    height: 70pt;
+
+    text-align: center;
+    font-family: "EngraversGothic BT";
+    color: black;
+    font-size: 30pt;
+    letter-spacing: 5pt;
+
+    position: relative;
+    bottom: -40pt;
+    display: block;
+    margin: 0 auto;
+
+    /*border: 3pt blue solid;*/
+}
+
+#time {
+    position: relative;
+    bottom: -10pt;
+
+    text-align: center;
+    font-family: "EngraversGothic BT";
+    color: black;
+    font-size: 24pt;
+
+}

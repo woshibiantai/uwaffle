@@ -1,0 +1,97 @@
+.header-col {
+    height: 100%;
+    background: url("../assets/main/header.svg") no-repeat;
+    background-size: 80%;
+    background-position: center;
+    filter: drop-shadow(2pt 2pt 2pt rgba(0,0,0,0.5));
+}
+
+.playlist-row {
+    height: 70%;
+    overflow: scroll;
+}
+
+.fiveProfile-row {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.fiveProfile-col {
+    height: 70%;
+}
+
+.fiveProfile-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.identityTitle-row {
+    text-align: center;
+    color: #808285;
+    padding: 0;
+    font-size: 2em;
+    letter-spacing: 0.2em;
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background: url("../assets/five/BG.svg") center no-repeat;
+}
+
+.popup-row {
+    position: absolute;
+    display: block;
+    background: url("../assets/five/popBG.svg");
+    background-size: 100% auto;
+    z-index: 30;
+    height: 50%;
+    width: 100%;
+    bottom: -50%;
+    color: white;
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    text-align: center;
+    -webkit-transition: bottom 0.5s;
+    -moz-transition: bottom 0.5s;
+    -o-transition: bottom 0.5s;
+    transition: bottom 0.5s;
+    padding: 1em;
+}
+
+.popup-row input[type=text] {
+    margin: 2em 0em;
+    padding: 0.5em 1em;
+    width: 100%;
+    border: none;
+    border-radius: 7pt;
+    color: #6D6E71;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.popup-row input[type=submit] {
+    border: none;
+    background: none;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    padding:0;
+    margin: 0;
+}
+
+#no a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+
+.popup-row span {
+    padding: 0.5em;
+    margin: 10%;
+    border-radius: 10pt;
+    background: rgba(0, 0, 0, 0.4);
+    filter: drop-shadow(2pt 2pt 3pt rgba(0,0,0,0.3));   
+}

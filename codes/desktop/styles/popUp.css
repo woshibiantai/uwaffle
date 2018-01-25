@@ -1,0 +1,152 @@
+.black_overlay{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1001;
+    -moz-opacity: 0.2;
+    opacity:.20;
+    filter: alpha(opacity=20);
+}
+
+.white_content {
+    display: none;
+    position: absolute;
+    top: 220pt;
+    left: 400pt;
+    width: 280pt;
+    height: 100pt;
+
+    font-family: "SWIsop1";
+    font-size: 16pt;
+
+    padding: 16px;
+    border: none;
+    background-color: white;
+    z-index:1002;
+    overflow: auto;
+    color: black;
+
+    -moz-opacity: 0.9;
+    opacity:.90;
+    filter: alpha(opacity=90);
+
+    border-radius: 10pt;
+}
+
+.white_content a {
+    font-family: "EngraversGothic BT";
+    color: white;
+}
+
+#yes, #no {
+    background: #27D2CC;
+    border-radius: 10pt;
+    text-align: center;
+    display: inline-block;
+    /* width: 50pt; */
+    padding: 2pt 4pt;
+    margin: 0pt 5pt;
+    filter: drop-shadow(2pt 2pt 3pt rgba(0,0,0,0.3));
+    transition: all .2s ease-in-out;
+}
+
+#no {
+    float: right;
+} 
+
+.choice {
+    display: block;
+    margin: 15pt auto 0pt;
+    width: 160pt;
+}
+
+#yes:hover, #no:hover {
+    transform: scale(1.1);
+}
+
+#popUp input[type=text]{
+    border: none;
+    background: rgba(188, 188, 188, 0.8);
+    font-size: 12pt;
+    padding: 7pt;
+    border-radius: 5pt;
+    width: 200pt;
+}
+
+#popUp input[type=submit] {
+    border: none;
+    background: none;
+    font-family: "EngraversGothic BT";
+    color: white;
+    font-size: 16pt;
+}
+
+#popUp2 input[type=text]{
+    border: none;
+    background: rgba(188, 188, 188, 0.8);
+    font-size: 12pt;
+    padding: 7pt;
+    border-radius: 5pt;
+    width: 200pt;
+}
+
+#popUp2 input[type=submit] {
+    border: none;
+    background: none;
+    font-family: "EngraversGothic BT";
+    color: white;
+    font-size: 16pt;
+}
+#popUp3 input[type=text]{
+    border: none;
+    background: rgba(188, 188, 188, 0.8);
+    font-size: 12pt;
+    padding: 7pt;
+    border-radius: 5pt;
+    width: 200pt;
+}
+
+#popUp3 input[type=submit] {
+    border: none;
+    background: none;
+    font-family: "EngraversGothic BT";
+    color: white;
+    font-size: 16pt;
+}
+#popUp4 input[type=text]{
+    border: none;
+    background: rgba(188, 188, 188, 0.8);
+    font-size: 12pt;
+    padding: 7pt;
+    border-radius: 5pt;
+    width: 200pt;
+}
+
+#popUp4 input[type=submit] {
+    border: none;
+    background: none;
+    font-family: "EngraversGothic BT";
+    color: white;
+    font-size: 16pt;
+}
+#popUp5 input[type=text]{
+    border: none;
+    background: rgba(188, 188, 188, 0.8);
+    font-size: 12pt;
+    padding: 7pt;
+    border-radius: 5pt;
+    width: 200pt;
+}
+
+#popUp5 input[type=submit] {
+    border: none;
+    background: none;
+    font-family: "EngraversGothic BT";
+    color: white;
+    font-size: 16pt;
+}
+

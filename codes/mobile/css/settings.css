@@ -1,0 +1,59 @@
+.settings-row, .settings-col {
+    height: 100%;
+    padding: 0;
+}
+
+.profile-row, .profileImage-col {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.profile-row {
+    position: relative;
+    top: 15%;
+}
+
+.profileImage-col img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.profileName-col {
+    margin-top: 10%;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    color: #58595B;
+}
+
+.options-row, .options-col {
+    position: relative;
+    top: 15%;
+    padding: 0;
+    margin: 0;
+}
+
+.options a {
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.options a:hover {
+    text-decoration: none;
+}
+
+.options {
+    width: 100%;
+    padding: 0;
+}
+
+.options li {
+    font-size: 1.2em;
+    width: 100%;
+    background-color: rgba(128, 130, 133, 0.3);
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
