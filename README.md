@@ -2,7 +2,7 @@
 This project is done during the Asian Leadership Programme 2016, between SUTD and ZJU in Hangzhou, China. The theme of the project is Music Emotion, and our team decided to develop a web application, UWAFFLE
 
 ### The team
-Brandon, Joaquin, Kai Lue, Michelle, Wei Xuan
+Brandon, Joaquin, Kai Lue, Michelle, Ruth, Wei Xuan
 
 ### The idea
 UWAFFLE was made to help travelers explore the music in the places they visit through a web application. Music is a way to connect with people, but language can be a barrier. With UWAFFLE, music can be discovered based on the people around you, even if it is in a language you don't understand. 
